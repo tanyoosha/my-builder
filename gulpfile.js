@@ -31,7 +31,7 @@ $.gulp.task('default', $.gulp.series(
     'sprite:svg'
   ),
   $.gulp.parallel(
-    'watch',
+    'watch', 
     'serve'
   )
 ));
